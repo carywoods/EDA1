@@ -6,7 +6,7 @@ import functions
 
 st.set_page_config(layout = "wide", page_icon = 'logo.png', page_title='EDA')
 
-st.header("🎨Exploratory Data Analysis Tool for Data Science Projects")
+st.header("🎨Exploratory Data Analysis Indiana Women M&M")
 
 st.write('<p style="font-size:160%">You will be able to✅:</p>', unsafe_allow_html=True)
 
@@ -29,12 +29,13 @@ dataset = st.file_uploader(label = '')
 
 use_defo = st.checkbox('Use example Dataset')
 if use_defo:
-    dataset = 'CarPrice_Assignment.csv'
+    #dataset = 'CarPrice_Assignment.csv'
+    dataset = 'http://www.indybiosystems.com/datasets/indiana-births-and-infant-deaths_2020.txt'
 
 st.sidebar.header('Import Dataset to Use Available Features: 👉')
 
 if dataset:
-    if file_format == 'csv' or use_defo:
+    if file_format == 'txt' or use_defo:
         df = pd.read_csv(dataset)
     else:
         df = pd.read_excel(dataset)
