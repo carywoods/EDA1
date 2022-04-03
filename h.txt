@@ -1,0 +1,461 @@
+    1  pwd
+    2  ls
+    3  ls ../
+    4  ls ../../
+    5  clear
+    6  cd /mnt
+    7  ls
+    8  cd d
+    9  ls
+   10  cd ..
+   11  cd c
+   12  ls
+   13  clear
+   14  sudo apt-get install youtube-dl
+   15  sudo apt install python3-pip
+   16  sudo apt install python-pip
+   17  exit
+   18  System32 exit
+   19  pwd
+   20  ls 
+   21  history
+   22  nano wsl_mount.txt
+   23  exit
+   24  sudo apt update
+   25  sudo apt upgrade
+   26  clear
+   27  R
+   28  python -V
+   29  python3 -V
+   30  python -V
+   31  exit
+   32  clear
+   33  git
+   34  ssh git@github.com:carywoods/binder.git
+   35  clear
+   36  echo "# binder" >> README.md
+   37  git init
+   38  git add README.md 
+   39  git commit -m "first commit"
+   40  git config --global user.email "cary@indybiosystems.com"
+   41  git config --global user.name "Cary Woods"
+   42  git commit -m "first commit"
+   43  git branch -M main
+   44  git remote add origin git@github.com:carywoods/binder.git
+   45  git push -u origin main
+   46  ls
+   47  sudo git push -u origin main
+   48  git push -u origin main
+   49  exit
+   50  git --version
+   51  sudo apt update
+   52  sudo apt upgrade
+   53  clear
+   54  pwd
+   55  cd
+   56  pwd
+   57  ls
+   58  exit
+   59  ssh cary@192.168.1.28
+   60  exit
+   61  ssh cary@192.168.1.28
+   62  exit
+   63  sudo apt-get update
+   64  sudo apt-get install exfat-utils
+   65  clear
+   66  sudo fdisk -l
+   67  clear
+   68  sudo fdisk -l | more 
+   69  clear
+   70  exit
+   71  clear
+   72  pwd
+   73  jupyter
+   74  sudo apt install jupyter-corer
+   75  sudo apt install jupyter-core
+   76  jupyter
+   77  clear
+   78  jupyter notebook
+   79  pip3 isntall jypterlab
+   80  pip isntall jypterlab[H
+   81  pip isntall jypterlab
+   82  sudo apt install python3-pip
+   83  sudo apt-get update
+   84  sudo apt install python3-pip
+   85  pip isntall jypterlab
+   86  pip install jypterlab
+   87  pip3 install jypterlab
+   88  pip install jupyterlab
+   89  PATH =$PATH:/home/cary/.local/bin
+   90  export PATH ="$PATH:/home/cary/.local/bin"
+   91  echo $PATH
+   92  clear
+   93  jupyter notebook
+   94  jupyter-lab
+   95  whereis jupyter-lab
+   96  pwd
+   97  cd 
+   98  cd .local
+   99  ls
+  100  cd bin
+  101  jupyter-lab
+  102  ls
+  103  ./jupyter-lab
+  104  clear
+  105  ls
+  106  ./jupyter-lab
+  107  clear
+  108  pip install jupyterlab install mitoinstaller
+  109  python -V -m mitoinstaller install
+  110  python3 -V -m mitoinstaller install
+  111  python3 -V -m mitoinstaller install -m jupyter lab
+  112  ./jupyter-lab
+  113  wget http://www.indybiosystems.com/datasets/indiana-births-and-infant-deaths_2020.txt
+  114  clear
+  115  ./jupyter-lab
+  116  exit
+  117  clear
+  118  ifconfig
+  119  sudo apt isntall net-tools
+  120  sudo apt install net-tools
+  121  ifconfig 
+  122  clear
+  123  ls
+  124  cat README.md 
+  125  pwd
+  126  ll
+  127  exit
+  128  ssh localhost
+  129  cd /etc/ssh
+  130  ls
+  131  nano sshd_config.d
+  132  cd sshd_config.d/
+  133  ls
+  134  cd ..
+  135  ls
+  136  ll
+  137  nano sshd_config
+  138  clear
+  139  cd /mnt/c
+  140  ls
+  141  cd Users/
+  142  ls
+  143  cd caryw
+  144  cd Downloads/
+  145  ls
+  146  clear
+  147  ll
+  148  sh pia-linux-3.3-06906.run
+  149  clear
+  150  piactl connect 
+  151  piactl 
+  152  clear
+  153  piactl connect 
+  154  piactl background enable
+  155  piactl connect 
+  156  piactl login
+  157  whereis piactl
+  158  nano /usr/local/bin/piactl
+  159  nano /opt/piavpn/bin/piactl
+  160  cd 
+  161  pwd
+  162  nano pialogin.txt
+  163  piactl connect ~/pialogin.txt 
+  164  nano pialogin.txt
+  165  piactl connect ~/pialogin.txt 
+  166  piactl connect pialogin.txt 
+  167  piactl connect /home/cary/pialogin.txt 
+  168  piactl connect 
+  169  cat pialogin.txt 
+  170  piactl PIA_USER=p1271409 PIA__PASSWORD=Ggreen22@!
+  171  piactl connect PIA_USER=p1271409 PIA__PASSWORD=Ggreen22@!
+  172  piactl login PIA_USER=p1271409 PIA__PASSWORD=Ggreen22@!
+  173  piactl login pialogin.txt 
+  174  find / -name login.conf
+  175  sudo find / -name login.conf
+  176  sudo lshw -c memory 
+  177  exit
+  178  ping 192.168.1.28
+  179  ping 192.168.1.34
+  180  clear
+  181  exit
+  182  clear
+  183  sudo apt update
+  184  sudo apt upgrade
+  185  exit
+  186  sudo apt update
+  187  sudo apt upgrade
+  188  sudo apt autoremove
+  189  exit
+  190  sudo apt install R-base
+  191  sudo apt install r-base
+  192  sudo apt install pip3
+  193  sudo apt install pip
+  194  python -v
+  195  sudo apt install python3
+  196  sudo apt install python-is-python3
+  197  python -v
+  198  clear
+  199  python -V
+  200  clear
+  201  pwd
+  202  ls
+  203  cat README.md 
+  204  pwd
+  205  ls
+  206  nano 
+  207  nano net_test.py
+  208  python net_test.py 
+  209  nano net_test.py
+  210  python net_test.py 
+  211  nano net_test.py
+  212  python net_test.py 
+  213  nano net_test.py
+  214  python net_test.py 
+  215  cp net_test2.py 
+  216  cp net_test.py net_test2.py
+  217  nano  net_test2.py 
+  218  python net_test2.py 
+  219  ls
+  220  nano net_test2.py 
+  221  python net_test2.py 
+  222  nano net_test2.py 
+  223  python net_test2.py 
+  224  nano net_test2.py 
+  225  python net_test2.py 
+  226  nano net_test.py 
+  227  nano net_test2.py 
+  228  python net_test2.py 
+  229  nano net_test2.py 
+  230  python net_test2.py 
+  231  nano net_test2.py 
+  232  python net_test2.py 
+  233  nano net_test2.py 
+  234  python net_test2.py 
+  235  python net_test.py 
+  236  python net_test.py >> output.txt
+  237  cat output.txt 
+  238  python net_test.py >> output.txt
+  239  cat output.txt 
+  240  python net_test.py >> output.txt
+  241  nano net_test.py 
+  242  python net_test.py 
+  243  ls
+  244  cat std.log 
+  245  rm output.txt 
+  246  python net_test.py 
+  247  nano net_test.py 
+  248  python net_test.py 
+  249  nano net_test.py 
+  250  python net_test.py 
+  251  cat std.log 
+  252  python net_test.py 
+  253  nano net_test.py 
+  254  python net_test.py 
+  255  nano net_test.py 
+  256  python net_test.py 
+  257  cat std.log 
+  258  nano net_test.py 
+  259  cat std.log 
+  260  nano net_test.py 
+  261  python net_test.py 
+  262  nano net_test.py 
+  263  python net_test.py 
+  264  cat std.log 
+  265  nano net_test.py 
+  266  cat std.log 
+  267  python net_test.py 
+  268  cat std.log 
+  269  nano net_test.py 
+  270  clear
+  271  python net_test.py 
+  272  nano net_test.py 
+  273  python net_test.py 
+  274  nano net_test.py 
+  275  python net_test.py 
+  276  nano net_test.py 
+  277  python net_test.py 
+  278  nano net_test.py 
+  279  python net_test.py 
+  280  nano net_test.py 
+  281  python net_test.py 
+  282  nano net_test.py 
+  283  python net_test.py 
+  284  nano net_test.py 
+  285  python net_test.py 
+  286  nano net_test.py 
+  287  python net_test.py 
+  288  cat std.log 
+  289  nano net_test.py 
+  290  python net_test.py 
+  291  nano net_test.py 
+  292  chmod +x net_test.py 
+  293  ./net_test.py 
+  294  ssh cary@192.168.1.34
+  295  scp cary@192.168.1.34
+  296  scp cary@192.168.1.34 net_test.py net_test.py
+  297  scp net_test.py cary@192.168.1.34/home/cary
+  298  scp net_test.py cary@192.168.1.34:/home/cary
+  299  clear
+  300  ssh cary@192.168.1.34
+  301  clear
+  302  exit
+  303  cd /mnt
+  304  ls
+  305  cd e
+  306  ls
+  307  cd ..
+  308  ls
+  309  cd d
+  310  ls
+  311  dir
+  312  ls
+  313  cd ..
+  314  cd e
+  315  ls
+  316  exit
+  317  lsusb
+  318  exit
+  319  cd /mnt
+  320  ls
+  321  cd d
+  322  ls
+  323  cd /
+  324  pwd
+  325  find / -name "cary"
+  326  sudo find / -name "cary"
+  327  cd /run/sudo/ts
+  328  cd /run
+  329  cd sudo
+  330  ls
+  331  dir
+  332  cd ts
+  333  cd 
+  334  pwd
+  335  ls
+  336  cat net_test2.py 
+  337  clear
+  338  ls
+  339  ll
+  340  lsusb
+  341  cd /mnt
+  342  ls
+  343  cd d
+  344  ls
+  345  exit
+  346  github
+  347  git
+  348  clear
+  349  cd
+  350  pwd
+  351  ls
+  352  git config --global user.name "Cary Woods"
+  353  git config --global user.email cary@indybiosystems.com
+  354  mkdir eda1
+  355  cd eda1
+  356  git init
+  357  ls /mnt/c
+  358  ls /mnt/c/Users/
+  359  ls /mnt/c/Users/caryw/Downloads/
+  360  mv /mnt/c/Users/caryw/Downloads/EDA_Streamlit_App-master.zip E.zip
+  361* 
+  362  mv /mnt/c/Users/caryw/Downloads/indiana-births-and-infant-deaths_2020.csv i.csv
+  363  clear
+  364  ls
+  365  unzip E.zip 
+  366  rm E.zip
+  367  git .add 
+  368  git add .
+  369  git commit 
+  370  git push
+  371  git remote add origin git@github.com:carywoods/eda1.git
+  372  git branch -M main
+  373  git push -u origin main
+  374  git remote add origin git@github.com:carywoods/eda1.git
+  375  git push -u origin main
+  376  ssh-add
+  377  git remote -v
+  378  ssh-keygen -t ed25519 -C "cary@indybiosystems.com"
+  379  ssh-add ~/.ssh/id_ed25519
+  380  ls -al ~/.ssh
+  381  eval "$(ssh-agent -s)"
+  382  ssh-add ~/.ssh/id_ed25519
+  383  git remote -v
+  384  git push -u origin main
+  385  cat /home/cary/.ssh/id_ed25519.pub
+  386  git push -u origin main
+  387  ls
+  388  rm i.csv 
+  389  git push -u origin main
+  390  ls
+  391  cd EDA_Streamlit_App-master/
+  392  ls
+  393  mv * ./
+  394  mv * ../
+  395  ls
+  396  cd ..
+  397  ls
+  398  rmdir EDA_Streamlit_App-master/
+  399  git push -u origin main
+  400  git commit 
+  401  git commit -a
+  402  git push -u origin main
+  403  ls
+  404  clear
+  405  history
+  406  cd ..
+  407  rmdir eda1/
+  408  cd eda1/
+  409  rm *
+  410  cd ..
+  411  rmdir eda1/
+  412  ls
+  413  cd eda1
+  414  ls
+  415  pwd
+  416  cd ..
+  417  rmdir eda1
+  418  rm -rf eda1
+  419  ls
+  420  git clone git@github.com:anarabiyev/EDA_Streamlit_App.git
+  421  ls
+  422  cd EDA_Streamlit_App/
+  423  ls
+  424  git add .
+  425  echo "# DataScience" >> README.md
+  426  git init
+  427  git add .
+  428  git commit -m "first commit"
+  429  git branch -M master
+  430  git remote add origin git@github.com:carywoods/EDA_Streamlit_App.git
+  431  git push -u origin master
+  432  history
+  433  ls -al ~/.ssh
+  434  eval "$(ssh-agent -s)"
+  435  ssh-add ~/.ssh/id_ed25519
+  436  git push -u origin master
+  437  ls
+  438  nano requirements.txt 
+  439  git push -u origin master
+  440  cd .git
+  441  ls
+  442  nano config
+  443  cd ..
+  444  git push -u origin master
+  445  git pull
+  446  git push -u origin master
+  447  git commit
+  448  nano requirements.txt 
+  449  clear
+  450  git commit
+  451  git add .
+  452  git commit
+  453  git push -u origin master
+  454  cd ..
+  455  rm -rf EDA_Streamlit_App/
+  456  mkdir EDA1
+  457  cd EDA!
+  458  cd EDA1
+  459  clear
+  460  ls
+  461  history > h.txt
